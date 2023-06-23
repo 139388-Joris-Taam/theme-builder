@@ -1,0 +1,42 @@
+    /* Navbar */
+  
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3c4770;
+    color: #be8199;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    display: flex;
+  }
+  
+  nav li {
+    padding: 0px 20px;
+  }
+  
+  nav ul li a {
+    display: flex;
+    color: #be8199;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Monospace;
+    font-weight: bold;
+    padding: 0px 6px;
+  }
+  
+  nav ul li a:hover {
+    color: #3c4770;
+    background-color: #be8199;
+    transform: scale(1.1);
+    border-radius: 6px;
+  }
+  
